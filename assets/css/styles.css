@@ -8,9 +8,10 @@ body {
 }
 
 nav {
-	background-color: #333;
+	background-color: black;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	/* justify-content: space-between; */
 	align-items: center;
 	height: 50px;
 	padding: 0 20px;
@@ -24,7 +25,7 @@ nav ul {
 }
 
 nav ul li a {
-	color: grey;
+	color: #aaa;
 	text-decoration: none;
 	margin-right: 20px;
 
@@ -34,11 +35,6 @@ nav ul li a:hover {
 	color: white;
 }
 
-#intro img {
-	width: 25vw;
-	float: right;
-}
-
 section {
 	padding: 50px;
 	text-align: center;
@@ -46,11 +42,18 @@ section {
 
 #intro h1, #intro h2 {
 	margin-top: 0;
-	margin-right: 200px;
 }
 
-section p {
-	margin-right: 200px;
+#intro img {
+	height: 120px;
+	width: 400px;
+	margin: 50px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+section h2 {
+	margin-bottom: 50px;
 }
 
 section ul {
@@ -64,7 +67,7 @@ section ul li {
 }
 
 section ul li a {
-	color: #333;
+	color: lightgrey;
 	text-decoration: none;
 }
 
@@ -72,3 +75,43 @@ section ul li a:hover {
 	text-decoration: underline;
 }
 
+#skills {
+	background-color: black;
+	color: white;
+}
+
+#projects a {
+	color: #555;
+}
+
+#projects a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+#contact {
+	background-color: black;
+	color: white;
+}
+
+#contact a {
+	color: #aaa;
+}
+
+#contact a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#about h1, #about h2 {
+	margin-top: 0;
+}
+
+#about img {
+	height: 120px;
+	width: 400px;
+	margin: 50px;
+	object-fit: cover;
+	border-radius: 20px;
+	outline: 2px solid black;
+}
