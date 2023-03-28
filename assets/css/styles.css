@@ -3,7 +3,7 @@
 } */
 
 body {
-	margin: 0;
+	margin: 0 auto;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -11,7 +11,6 @@ nav {
 	background-color: black;
 	display: flex;
 	justify-content: center;
-	/* justify-content: space-between; */
 	align-items: center;
 	height: 50px;
 	padding: 0 20px;
@@ -27,8 +26,7 @@ nav ul {
 nav ul li a {
 	color: #aaa;
 	text-decoration: none;
-	margin-right: 20px;
-
+	margin: 5vw;
 }
 
 nav ul li a:hover {
@@ -38,18 +36,6 @@ nav ul li a:hover {
 section {
 	padding: 50px;
 	text-align: center;
-}
-
-#intro h1, #intro h2 {
-	margin-top: 0;
-}
-
-#intro img {
-	height: 120px;
-	width: 400px;
-	margin: 50px;
-	object-fit: cover;
-	border-radius: 20px;
 }
 
 section h2 {
@@ -73,6 +59,31 @@ section ul li a {
 
 section ul li a:hover {
 	text-decoration: underline;
+}
+
+#intro h1, #intro h2 {
+	margin-top: 0;
+}
+
+#intro img {
+	height: 50%;
+	width: 50%;
+	max-width: 400px;
+	margin-bottom: 50px;
+	object-fit: cover;
+	border-radius: 300px;
+}
+
+#projects li {
+	margin-bottom: 50px;
+}
+
+#projects img {
+	height: 50%;
+	width: 50%;
+	max-width: 400px;
+	object-fit: cover;
+	border-radius: 10px;
 }
 
 #skills {
@@ -101,17 +112,4 @@ section ul li a:hover {
 #contact a:hover {
 	color: white;
 	text-decoration: none;
-}
-
-#about h1, #about h2 {
-	margin-top: 0;
-}
-
-#about img {
-	height: 120px;
-	width: 400px;
-	margin: 50px;
-	object-fit: cover;
-	border-radius: 20px;
-	outline: 2px solid black;
 }
