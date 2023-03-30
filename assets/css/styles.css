@@ -8,18 +8,7 @@ body {
 }
 
 svg {
-	outline: 1px solid #ccc;
-	background-color: #ddd;
-	margin-top: 5px;
-	margin-left: 230px;
-	margin-right: 230px;
-	width: 46%;
-	height: 30px;
 	border-radius: 10px;
-}
-
-svg:hover {
-	box-shadow: 2px 2px 2px black;
 }
 
 nav {
@@ -102,6 +91,14 @@ section ul li a:hover {
 	margin-bottom: 50px;
 }
 
+#projects a {
+	color: grey;
+}
+
+#projects a:hover {
+	color: #000;
+}
+
 #projects img {
 	height: 50%;
 	width: 50%;
@@ -117,7 +114,7 @@ section ul li a:hover {
 #skills {
 	background-color: black;
 	color: white;
-}
+}sniow
 
 #projects a {
 	color: #555;
